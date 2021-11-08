@@ -97,4 +97,4 @@ stream.save(venda);
 - AssinanteId
 
 Assinante é normalmente o cnpj, o authorization token e o secret são informados
-pela Casa Magalhães através dos canais de comunicação com os parceiros.
+pela QuickData através dos canais de comunicação com os parceiros.
