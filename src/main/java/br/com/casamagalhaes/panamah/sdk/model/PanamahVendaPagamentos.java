@@ -5,6 +5,7 @@ public class PanamahVendaPagamentos {
     private String formaPagamentoId;
     private String sequencial;
     private java.math.BigDecimal valor;
+    private String tipoPagamentoSefaz;
 
     public PanamahVendaPagamentos() {
     }
@@ -31,6 +32,14 @@ public class PanamahVendaPagamentos {
 
     public void setValor(java.math.BigDecimal valor) {
         this.valor = valor;
+    }
+
+    public String getTipoPagamentoSefaz() {
+        return tipoPagamentoSefaz;
+    }
+
+    public void setTipoPagamentoSefaz(String tipoPagamentoSefaz) {
+        this.tipoPagamentoSefaz = tipoPagamentoSefaz;
     }
 
     public void validate() throws Exception {

@@ -8,6 +8,8 @@ public class PanamahVendaItens {
     private String funcionarioId;
     private java.math.BigDecimal preco;
     private String produtoId;
+    private String descricao;
+    private String gtin;
     private String codigoRegistrado;
     private Boolean promocao;
     private java.math.BigDecimal quantidade;
@@ -68,6 +70,22 @@ public class PanamahVendaItens {
 
     public void setProdutoId(String produtoId) {
         this.produtoId = produtoId;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getGtin() {
+        return gtin;
+    }
+
+    public void setGtin(String gtin) {
+        this.gtin = gtin;
     }
 
     public String getCodigoRegistrado() {
@@ -165,5 +183,7 @@ public class PanamahVendaItens {
             throw new Exception("valorUnitario não pode ser nulo!");
         if (this.tipoPreco == null)
             throw new Exception("tipoPreco não pode ser nulo!");
+        if (this.descricao == null)
+            throw new Exception("descricao não pode ser nulo!");
     }
 }
