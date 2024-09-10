@@ -6,6 +6,7 @@ public class PanamahVenda implements IPanamahModel {
 
     private String id;
     private String lojaId;
+    private String cnpj;
     private String clienteId;
     private String funcionarioId;
     private java.util.Date data;
@@ -48,6 +49,14 @@ public class PanamahVenda implements IPanamahModel {
 
     public void setLojaId(String lojaId) {
         this.lojaId = lojaId;
+    }
+
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
     }
 
     public String getClienteId() {
@@ -233,5 +242,7 @@ public class PanamahVenda implements IPanamahModel {
             throw new Exception("itens não pode ser nulo!");
         if (this.pagamentos == null)
             throw new Exception("pagamentos não pode ser nulo!");
+        if (this.cnpj == null)
+            throw new Exception("CNPJ não pode ser nulo!");
     }
 }
