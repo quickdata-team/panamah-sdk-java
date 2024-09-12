@@ -2,18 +2,18 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/4f38bfb0bcf3566ba312/maintainability)](https://codeclimate.com/repos/5cc8bc7f389cf3174100021a/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/4f38bfb0bcf3566ba312/test_coverage)](https://codeclimate.com/repos/5cc8bc7f389cf3174100021a/test_coverage)
-[![Build Status](https://travis-ci.org/casamagalhaes/panamah-sdk-java.svg?branch=development)](https://travis-ci.org/casamagalhaes/panamah-sdk-java)
-[![Download](https://api.bintray.com/packages/casamagalhaes/panamah-java-sdk/panamah-java-sdk/images/download.svg)](https://bintray.com/casamagalhaes/panamah-java-sdk/panamah-java-sdk/_latestVersion)
+[![Build Status](https://travis-ci.org/quickdata/panamah-sdk-java.svg?branch=development)](https://travis-ci.org/quickdata/panamah-sdk-java)
+[![Download](https://api.bintray.com/packages/quickdata/panamah-java-sdk/panamah-java-sdk/images/download.svg)](https://bintray.com/quickdata/panamah-java-sdk/panamah-java-sdk/_latestVersion)
 
 Implementação java do panamah sdk
 
 ## Visão Geral
 
-[Visão Geral](https://github.com/casamagalhaes/panamah-sdk-java/wiki/Vis%C3%A3o-geral)
+[Visão Geral](https://github.com/quickdata/panamah-sdk-java/wiki/Vis%C3%A3o-geral)
 
 ## Documentação
 
-[Documentação geral](https://casamagalhaes.github.io/panamah-sdk/) e [exemplos de uso](https://github.com/casamagalhaes/panamah-sdk-java/wiki/Exemplo-de-uso)
+[Documentação geral](https://quickdata.github.io/panamah-sdk/) e [exemplos de uso](https://github.com/quickdata/panamah-sdk-java/wiki/Exemplo-de-uso)
 
 ## Requisitos
 
@@ -23,7 +23,7 @@ Implementação java do panamah sdk
 ## Testando
 
 Para é preciso ter o
-[servidor de testes](https://github.com/casamagalhaes/panamah-test-server)
+[servidor de testes](https://github.com/quickdata/panamah-test-server)
 rodando para executar corretamente os testes.
 
 O comando abaixo roda os testes unitários e gerar a cobertura.
@@ -42,12 +42,12 @@ plugins {
 repositories {
     jcenter()
     maven {
-        url  "https://dl.bintray.com/casamagalhaes/panamah-java-sdk"
+        url  "https://dl.bintray.com/quickdata/panamah-java-sdk"
     }
 }
 
 dependencies {
-    implementation 'br.com.casamagalhaes.panamah.sdk:panamah-sdk:2.4.6'
+    implementation 'br.com.quickdata.panamah.sdk:panamah-sdk:2.4.6'
     testImplementation 'junit:junit:4.12'
 }
 ```
@@ -55,7 +55,7 @@ dependencies {
 ## Usando em projetos maven
 
 Siga as instruções do link **set me up**
-[desta página](https://bintray.com/beta/#/casamagalhaes/panamah-java-sdk/panamah-java-sdk/2.4.6?tab=overview)
+[desta página](https://bintray.com/beta/#/quickdata/panamah-java-sdk/panamah-java-sdk/2.4.6?tab=overview)
 
 ## Registrando o assinante
 
