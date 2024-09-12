@@ -47,7 +47,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'br.com.quickdata.panamah.sdk:panamah-sdk:2.4.6'
+    implementation 'br.com.quickdata.panamah.sdk:panamah-sdk:2.5.0'
     testImplementation 'junit:junit:4.12'
 }
 ```
@@ -55,7 +55,7 @@ dependencies {
 ## Usando em projetos maven
 
 Siga as instruções do link **set me up**
-[desta página](https://bintray.com/beta/#/quickdata/panamah-java-sdk/panamah-java-sdk/2.4.6?tab=overview)
+[desta página](https://bintray.com/beta/#/quickdata/panamah-java-sdk/panamah-java-sdk/2.5.0?tab=overview)
 
 ## Registrando o assinante
 

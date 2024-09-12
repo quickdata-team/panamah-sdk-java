@@ -45,7 +45,7 @@ import br.com.quickdata.panamah.sdk.nfe.X509Data;
 
 public class PanamahUtil {
 
-	public static final String SDK_IDENTITY = "panamah-java-2.4.6";
+	public static final String SDK_IDENTITY = "panamah-java-2.5.0";
 
 
 	public static String stamp(Date d) {

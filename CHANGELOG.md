@@ -2,6 +2,11 @@
 
 Histórico de releases da SDK
 
+## 2.5.0
+
+- Adição de novos campos ao modelo de `PanamahVenda`
+- Mudança do dominio Casa Magalhães para QuickData
+
 ## 2.4.6
 
 - Correção no teste de conversão de data/hora
