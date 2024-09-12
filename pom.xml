@@ -4,14 +4,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>br.com.casamagalhaes.panamah.sdk</groupId>
+	<groupId>br.com.quickdata.panamah.sdk</groupId>
 	<artifactId>panamah-sdk</artifactId>
 
 	<version>2.4.6</version>
 
 
 	<name>panamah-sdk</name>
-	<url>https://github.com/casamagalhaes/panamah-sdk-java</url>
+	<url>https://github.com/quickdata/panamah-sdk-java</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,9 +21,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>bintray-casamagalhaes-panamah-java-sdk</id>
-			<name>casamagalhaes-panamah-java-sdk</name>
-			<url>https://api.bintray.com/maven/casamagalhaes/panamah-java-sdk/panamah-java-sdk/;publish=1</url>
+			<id>bintray-quickdata-panamah-java-sdk</id>
+			<name>quickdata-panamah-java-sdk</name>
+			<url>https://api.bintray.com/maven/quickdata/panamah-java-sdk/panamah-java-sdk/;publish=1</url>
 		</repository>
 	</distributionManagement>
 
@@ -147,13 +147,13 @@
 	</build>
 	<organization>
 		<name>Casa Magalhães</name>
-		<url>https://www.casamagalhaes.com.br/</url>
+		<url>https://www.quickdata.com.br/</url>
 	</organization>
 	<scm>
-		<url>git@github.com:casamagalhaes/panamah-sdk-java.git</url>
+		<url>git@github.com:quickdata/panamah-sdk-java.git</url>
 	</scm>
 	<issueManagement>
 		<system>github issues</system>
-		<url>https://github.com/casamagalhaes/panamah-sdk-java/issues</url>
+		<url>https://github.com/quickdata/panamah-sdk-java/issues</url>
 	</issueManagement>
 </project>
