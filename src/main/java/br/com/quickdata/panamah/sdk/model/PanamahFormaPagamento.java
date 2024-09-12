@@ -1,0 +1,40 @@
+package br.com.quickdata.panamah.sdk.model;
+
+import br.com.quickdata.panamah.sdk.IPanamahModel;
+
+public class PanamahFormaPagamento implements IPanamahModel {
+
+    private String id;
+    private String descricao;
+
+
+    public PanamahFormaPagamento() {
+    }
+
+    public PanamahFormaPagamento(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+
+    public void validate() throws Exception {
+        if (this.id == null) throw new Exception("id não pode ser nulo!");
+        if (this.descricao == null) throw new Exception("descricao não pode ser nulo!");
+    }
+}
+  
