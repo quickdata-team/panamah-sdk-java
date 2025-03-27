@@ -25,6 +25,7 @@ public class PanamahVenda implements IPanamahModel {
     private java.math.BigDecimal valorItensCancelados;
     private java.math.BigDecimal acrescimo;
     private String numeroCaixa;
+    private String xml;
     private java.util.List<PanamahVendaItens> itens;
     private java.util.List<PanamahVendaPagamentos> pagamentos;
 
@@ -201,6 +202,14 @@ public class PanamahVenda implements IPanamahModel {
 
     public void setNumeroCaixa(String numeroCaixa) {
         this.numeroCaixa = numeroCaixa;
+    }
+
+    public String getXml() {
+        return xml;
+    }
+
+    public void setXml(String xml) {
+        this.xml = xml;
     }
 
     public java.util.List<PanamahVendaItens> getItens() {
